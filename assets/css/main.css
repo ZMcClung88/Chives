@@ -2317,26 +2317,28 @@ body.is-touch .main {
   background: url('images/overlay.png'), url('../../images/jumbotron.png');
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
-  background-position: center;
+  background-position: 50% 50%;
   background-repeat: repeat, no-repeat;
 }
 
 /* One */
 
 #one {
-  background: url('images/overlay.png'), url('../../images/one.jpg');
+  background: url('images/overlay.png'), url('../../images/theband.jpg');
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
+  background-repeat: repeat, no-repeat;
 }
 
 /* Two */
 
 #two {
-  background: url('images/overlay.png'), url('../../images/two.jpg');
+  background: url('images/overlay.png'), url('../../images/theband2.jpg');
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
+  background-repeat: repeat, no-repeat;
 }
 
 /* Contact */
