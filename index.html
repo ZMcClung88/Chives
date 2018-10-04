@@ -17,7 +17,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<img height="50px" width="150px" src="./images/chives_logo.JPG" />
+				<img id="nav-img" height="50px" width="150px" src="./images/chives_logo.JPG" />
 				<!-- <h1>Chives</h1> -->
 				<nav>
 					<ul>
@@ -34,9 +34,10 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<h2>Hey.</h2>
+						<h2>Chives.</h2>
+						<!-- <img src="./images/chives_logo.JPG" alt=""> -->
 					</header>
-					<p>We are <strong>Chives</strong> a super dope rock band with a modern day electric twist<br />
+					<p>We are <strong>Chives</strong> a psychedelic rock band with a modern day twist<br />
 					<!-- and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p> -->
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
@@ -50,9 +51,7 @@
 					<header>
 						<h2>Who We Are</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>Let it be known, Chives procure sounds that are eclectic even for today's standards of Psychedelic Rock. Combining zany vocals, abrasive percussion and burning guitar/bass partnerships. They'll take an immobile crowd and get them to bounce off the walls. Make no mistake, Chives are technical whilst remaining creatively sporadic.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -63,9 +62,36 @@
 					<header>
 						<h2>Upcoming Shows</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					<!-- <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p> -->
+					<div id="upcoming-dates">
+						<div id="date">
+							<h6>Oct 11</h6>
+							<h1>Black Circle Brewing</h1>
+							<h5>Indianapolis, In</h5>
+						</div>
+
+				  	<hr id="hr-line" width="1" size="50" color="black" align="center">
+						<div id="line-mark"></div>
+
+						<div id="date">
+							<h6>Oct 18</h6>
+							<h1>Indy CD & Vinyl</h1>
+							<h5>Indianapolis, In</h5>
+						</div>
+
+						<hr id="hr-line" width="1" size="50" color="black" align="center">
+							<div id="line-mark"></div>
+
+						<div id="date">
+							<h6>Oct 25</h6>
+							<h1>The Vogue</h1>
+							<h5>Indianapolis, In</h5>
+						</div>
+
+
+					</div>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
@@ -75,30 +101,31 @@
 				<div class="content">
 					<header>
 						<h2>Our Music</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+						<!-- <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p> -->
 					</header>
 
 					<!-- Gallery  -->
 						<div class="gallery">
 							<article class="from-left">
-								<a href="images/fulls/01.jpg" class="image fit"><img src="images/payasso.jpg" title="The Anonymous Red" alt="" /></a>
+								<a  href="images/payasso.jpg"  class="image fit"><img onClick="play()" src="images/payasso.jpg" title="Payasso" alt=""  /></a>
+								<audio id="payasso_audio" src="music/Nightgown_(Final Master).wav"></audio>
 							</article>
 							<article class="from-right">
-								<a href="images/fulls/02.jpg" class="image fit"><img src="images/katana.jpg" title="Airchitecture II" alt="" /></a>
+								<a href="images/katana.jpg" class="image fit"><img src="images/katana.jpg" title="Katana" alt="" /></a>
 							</article>
 							<article class="from-left">
-								<a href="images/fulls/03.jpg" class="image fit"><img src="images/nightgown.jpg" title="Air Lounge" alt="" /></a>
+								<a href="images/nightgown.jpg" class="image fit"><img src="images/nightgown.jpg" title="Nightgown" alt="" /></a>
 							</article>
 							<article class="from-right">
-								<a href="images/fulls/04.jpg" class="image fit"><img src="images/porcelain.jpg" title="Carry on" alt="" /></a>
+								<a href="images/porcelain.jpg" class="image fit"><img src="images/porcelain.jpg" title="Porcelain" alt="" /></a>
 							</article>
 							<article class="from-left">
-								<a href="images/fulls/05.jpg" class="image fit"><img src="images/drip7.jpg" title="The sparkling shell" alt="" /></a>
+								<a href="images/drip7.jpg" class="image fit"><img src="images/drip7.jpg" title="Drip 7" alt="" /></a>
 							</article>
 							<article class="from-right">
-								<a href="images/fulls/06.jpg" class="image fit"><img src="images/dropnroll.jpg" title="Bent IX" alt="" /></a>
+								<a href="images/dropnroll.jpg" class="image fit"><img src="images/dropnroll.jpg" title="Drop N' Roll" alt="" /></a>
 							</article>
 						</div>
 
@@ -110,10 +137,10 @@
 				<div class="content">
 					<header>
 						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+						<p>Contact us for bookings, give us your love, or just say hey!</p>
 					</header>
 					<div class="box">
-						<form method="post" action="#">
+						<form method="POST" action="mail.php">
 							<div class="fields">
 								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
 								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>

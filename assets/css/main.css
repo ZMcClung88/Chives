@@ -2341,6 +2341,36 @@ body.is-touch .main {
   background-repeat: repeat, no-repeat;
 }
 
+#upcoming-dates {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  /* border: 2px solid blue; */
+}
+
+#date h5 {
+  color: #4298f4;
+  font-size: 14px;
+}
+
+#date h6 {
+  color: #0c54a0;
+  font-size: 24px;
+}
+
+#line-mark {
+  display: none;
+}
+
 /* Contact */
 
 #contact {
@@ -2368,13 +2398,58 @@ body.is-touch .main {
 }
 
 @media screen and (max-width: 736px) {
+  #header {
+    display: flex;
+  }
+
+  #nav-img {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 75px;
+  }
+
   #contact .box {
     padding: 1.5em 1.5em 2em 1.5em;
   }
 }
 
 @media screen and (max-width: 480px) {
+  #header {
+    display: flex;
+  }
+
+  #nav-img {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 75px;
+  }
+
   #contact .box {
     padding: 1em 1em 2em 1em;
+  }
+
+  #upcoming-dates {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #date {
+    width: 100%;
+  }
+
+  #hr-line {
+    display: none;
+  }
+
+  #line-mark {
+    border-bottom: 1px solid black;
+    width: 25%;
+    display: inline;
   }
 }
