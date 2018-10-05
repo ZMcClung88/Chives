@@ -2454,6 +2454,17 @@ body.is-touch .main {
   }
 }
 
-#nightgown {
-  border: 1px solid red;
+/* MUSIC PLAYER */
+
+#playlist {
+  list-style: none;
+}
+
+#playlist li a {
+  color: black;
+  text-decoration: none;
+}
+
+#playlist .current-song a {
+  color: blue;
 }

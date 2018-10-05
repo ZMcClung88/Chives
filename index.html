@@ -12,6 +12,7 @@
 		<link rel="shortcut icon" href="https://s4.bcbits.com/img/bc_favicon.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.plyr.io/3.4.4/plyr.css">
 	</head>
 	<body class="is-preload">
 
@@ -106,11 +107,18 @@
 						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p> -->
 					</header>
 
-					<audio id="nightgown" controls>
-					  <source src="./music/Nightgown_(Final Master).wav" type="audio/wav">
-					  <source src="./music/Nightgown_(Final Master).wav" type="audio/wav">
+					<button onClick="play()">play</button>
+
+					<audio src="" controls id="audioPlayer">
+					  <!-- <source src="./music/Nightgown_(Final Master).wav" type="audio/wav">
+					  <source src="./music/Nightgown_(Final Master).wav" type="audio/wav"> -->
 					Your browser does not support the audio element.
 					</audio>
+					<ul id="playlist">
+						<li class="current-song"><a href="./music/Nightgown_(Final Master).wav">Nightgown</a></li>
+						<li class="current-song"><a href="./music/Nightgown_(Final Master).wav">Payasso</a></li>
+						<li class="current-song"><a href="./music/Nightgown_(Final Master).wav">Glitter</a></li>
+					</ul>
 
 					<!-- Gallery  -->
 						<!-- <div class="gallery">

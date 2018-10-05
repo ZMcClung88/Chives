@@ -215,3 +215,11 @@
       $window.trigger('resize');
     });
 })(jQuery);
+
+// MUSIC PLAYER
+
+audioPlayer();
+function audioPlayer() {
+  $('#audioPlayer')[0].src = $('#playlist li a')[0];
+  $('#audioPlayer')[0].play();
+}
