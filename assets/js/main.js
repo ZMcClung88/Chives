@@ -227,7 +227,7 @@ function audioPlayer() {
   $('#playlist li a').click(function(e) {
     e.preventDefault();
     $('#audioPlayer')[0].src = this;
-    $('#audioPlayer')[0].play();
+    // $('#audioPlayer')[0].play();
     $('#playlist li').removeClass('current-song');
     currentSong = $(this)
       .parent()
