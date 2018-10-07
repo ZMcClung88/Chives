@@ -2467,4 +2467,5 @@ body.is-touch .main {
 
 #playlist .current-song a {
   color: blue;
+  font-weight: bold;
 }
